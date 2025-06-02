@@ -1,5 +1,5 @@
 import './App.css';
-import Movie from "./Movie.jsx";
+import MovieData from "./MovieList.jsx";
 import movieDetails from "./movies.json";
 import {useState} from "react";
 
@@ -15,7 +15,7 @@ function App() {
       </button>
       </h2>
       <h2>Details for {movieDetails.movies}</h2>
-      <Movie data={movieDetails.movieList}/>
+      <MovieData data={movieDetails.movieList}/>
     </>
   )
 }

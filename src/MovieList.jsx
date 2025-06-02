@@ -1,16 +1,16 @@
 import Movie from "./Movie.jsx";
 
-function Movie({data}) {
+function MovieData({data}) {
 
     return (
         <>
         {
             data.map((movieDetails) => {
-                return <Movie title={movieDetails.title} release={movieDetails.title} rating={movieDetails.rating}/>
+                return <Movie title={movieDetails.title} release={movieDetails.release} rating={movieDetails.rating}/>
             })
         }
         </>
     )
 }
 
-export default Movie
+export default MovieData
