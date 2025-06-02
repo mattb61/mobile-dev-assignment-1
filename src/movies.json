@@ -1,0 +1,9 @@
+{
+    "movies": "The John Wick series",
+    "movieList": [
+        {"title":"John Wick", "release":"2014", "rating":"7.5"},
+        {"title":"John Wick: Chapter 2", "release":"2017", "rating":"7.4"},
+        {"title":"John Wick: Chapter 3 - Parabellum", "release":"2019", "rating":"7.4"},
+        {"title":"John Wick: Chapter 4", "release":"2023", "rating":"7.6"}
+    ]
+}
