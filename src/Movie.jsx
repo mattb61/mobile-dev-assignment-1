@@ -2,7 +2,7 @@ function Movie({title, release, rating}) {
 
     return (
         <>
-            <h3>Title: {title}</h3>
+            <h4>Title: {title}</h4>
             <p>Release date: {release}</p>
             <p>Rating: {rating}</p>
         </>
